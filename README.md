@@ -1,7 +1,7 @@
 # BoomBikes 
 A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to ongoin Covid-19 pandaemic. They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends in the American market. The company wants to know:
 
-- Which vaeiables are significant in predicting the demand for shared bikes?
+- Which variables are significant in predicting the demand for shared bikes?
 - How well those variables describe the bike demands?
 
 
@@ -17,12 +17,12 @@ A US bike-sharing provider BoomBikes has recently suffered considerable dips in 
 
 
 ## Technologies Used
-- pandas library - version 1.3.5
-- numpy library - version 1.20.1
-- matplotlib library - version 3.3.4
-- seaborn library - version 0.11.1
+- pandas library - version 1.3.4
+- numpy library - version 1.20.3
+- matplotlib library - version 3.4.3
+- seaborn library - version 0.11.2
 - statsmodels - version 0.12.2
-- sklearn - version 0.24.1
+- sklearn - version 0.24.2
 
 ## Conclusions
 - The top 3 features contributing significantly towards explaining the demand of shared bikes are-
