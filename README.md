@@ -1,5 +1,8 @@
-# Project Name
-> Outline a brief description of your project.
+# BoomBikes 
+A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to ongoin Covid-19 pandaemic. They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends in the American market. The company wants to know:
+
+- Which vaeiables are significant in predicting the demand for shared bikes?
+- How well those variables describe the bike demands?
 
 
 ## Table of Contents
@@ -8,45 +11,31 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The project uses day.csv as the data set. 
+- We need to model the demand of the shared bikes with different independent variables/features and identify their respective coefficient. 
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas library - version 1.3.5
+- numpy library - version 1.20.1
+- matplotlib library - version 3.3.4
+- seaborn library - version 0.11.1
+- statsmodels - version 0.12.2
+- sklearn - version 0.24.1
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+- The top 3 features contributing significantly towards explaining the demand of shared bikes are-
+	- temp with the coefficient of 0.5499
+	- weathersit_Light Snow/Rain (weathersit = 3) with the coefficient of -0.2880
+	- year (yr) with a coefficient of 0.2331
+- Interpretation
+	- Demand is more during Fall season followed by summer season.
+	- Demand is more during summer months (higher temperature) and clear weather conditions. 
+	- Demand has significantly increased in the year 2019 as compared to 2018.
+	- During spring, and light snow/rain/misty weather conditions the demand goes down as we can see that there is a negative correlation with these variables.
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Research for General Subjective Questions from Google
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
